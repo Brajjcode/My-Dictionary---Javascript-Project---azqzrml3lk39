@@ -1,1 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,300&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
+}
+
+body{
+    background-color: azure;
+    font-family: "poppins",sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+
+}
+
+main{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+   
+    margin: auto;
+    padding: 35vh;
+    
+}
+
+.search{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.new{
+    padding-left: 35%;
+    min-width: 500px;
+}
+
+#history{
+    background-color: black;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     font-family: "Roboto",sans-serif;
+}
+
+#search{
+    background-color: black;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     font-family: "Roboto",sans-serif;
+}
+#defination{
+    margin-top: 20px;
+    padding: 0 22%;
+}
+
+#searchinput{
+    width: 200px;
+    height: 100%;
+    padding-block:12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+     font-family: "Roboto",sans-serif;
+    
+}
+
+#container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: gainsboro;
+    padding-top: 20px; 
+    position: relative;
+}   
+
+.meaning{
+    padding-top: 25px;
+}
+
+#X{
+    
+    background-color: black;
+    color: beige;
+    width: 50px;
+    height: 20%;
+    position: absolute;
+    right: 5px;
+    bottom: 1px;
+
+}
+
+.hidden{
+    display: none;
+}
