@@ -11,7 +11,7 @@ body{
     font-family: "poppins",sans-serif;
 }
 
-header{
+/*header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ header{
     margin-inline: auto;
     overflow: hidden;
 
-}
+}*/
 
 main{
     max-width: 1180px;
@@ -44,7 +44,7 @@ main{
     padding-top: 20px;
 }
 .new{
-    padding-left: 35%;
+    padding-left: 25%;
     min-width: 500px;
 }
 
@@ -70,6 +70,7 @@ main{
 #defination{
     margin-top: 20px;
     padding: 0 22%;
+   
 }
 
 #searchinput{
@@ -92,14 +93,18 @@ main{
     align-items: start;
     flex-wrap: wrap;
     row-gap: 20px;
+    column-gap: 20px;
 }
 
-.card{
+.Cardd{
     height: 350px;
     width: 300px;
     background-color: gainsboro;
     padding-top: 20px; 
     position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }   
 
 .meaning{

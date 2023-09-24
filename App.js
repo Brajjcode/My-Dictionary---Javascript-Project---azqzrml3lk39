@@ -25,7 +25,7 @@ function Defination(data,word){
     console.log(firstDefinition);
        
     defination.innerHTML='';
-    defination.innerHTML=  `Defination :${firstDefinition}`; 
+    defination.innerHTML=  ` Definition :${firstDefinition}`; 
     searches.push({word,firstDefinition});
     localStorage.setItem("searches", JSON.stringify(searches));
 
@@ -99,11 +99,11 @@ function loadHistory(){
        
      // const content=document.createElement('div');
       //  content.classList.add('content');
-        historyContainer.innerHTML+=`    <div class="card" id="card">
+        historyContainer.innerHTML+=` <div class="Cardd" id="card">
         <div class="content">
-            <div class="heading">${search.word}</div>
+            <div class="heading"><b>Word</b>: ${search.word}</div>
             <div class="meaning">
-               ${search.firstDefinition}
+             ${search.firstDefinition}
             </div>
             <button id="X"  onclick="deleteItems(${index})">X</button>
         </div>
@@ -119,13 +119,13 @@ function loadHistory(){
 const historybtn= document.getElementById('history')
 
 historybtn.addEventListener('click',()=>{
-    if(historybtn.innerHTML===`history`)
+    if(historybtn.innerHTML===`History`)
     {
         historybtn.innerHTML=`Search`;
     }
     else if(historybtn.innerHTML===`Search`)
     {
-        historybtn.innerHTML=`history`;
+        historybtn.innerHTML=`History`;
     //    window.location.reload();
 
     }
